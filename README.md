@@ -3,7 +3,6 @@
 🔑 **A Qiskit-based Python simulation of the BB84 quantum key distribution (QKD) protocol.**  
 👨‍💻 **Detects eavesdropping and ensures secure communication using quantum mechanics.**  
 
-![QKD Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/BB84.svg/500px-BB84.svg.png)  
 *(BB84 Protocol Overview - Alice, Bob, and Eve (Eavesdropper))*  
 
 ---
@@ -52,14 +51,14 @@ The bar chart helps visualize how **eavesdropping affects secure key generation*
 
 ## 📜 **Example Output**  
 ### With no eavesdropping
-noeve.png
+![With no eavesdropping](noeve.png)  
 ```bash
 Original Key (Alice and Bob agreed on):  [0 1 1 0 1]
 Final Secure Key(No Eave):  [0 1 1 0 1]
 Corrected Key(No Eave):  [0 1 1 0 1]
 ```
 ### With eavesdropping
-[witheve.png]
+![With eavesdropping](witheve.png)  
 ```bash
 Original Key (Alice and Bob agreed on):  [0 0 0 0 1]
 Final Secure Key(contains errors):  [1 1 0 0 0]
